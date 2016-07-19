@@ -17,7 +17,7 @@ local function enable_channel(receiver)
 	end
 	_config.disabled_channels[receiver] = false
 	save_config()
-	return "روبات شما روشن است"
+	return "روبات روشن شد"
 end
 
 local function disable_channel( receiver )
@@ -26,7 +26,7 @@ local function disable_channel( receiver )
 	end
 	_config.disabled_channels[receiver] = true
 	save_config()
-	return "ربات شما خاموش است"
+	return "ربات خاموش شد"
 end
 
 local function pre_process(msg)
