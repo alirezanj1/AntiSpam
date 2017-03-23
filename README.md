@@ -1,5 +1,4 @@
 **Table of Contents**
-- [TeleSeed](#teleseed)
 - [Features](#features)
 - [Commands](#commands)
 	- [Admins commands](#admins-commands)
